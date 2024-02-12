@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>.:: Clínica Pet Vitta ::.</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Pet Vitta</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#servicos">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/banner.png" class="d-block w-100 img-fluid" alt="Banner Clínica Pet Vitta">
+      </div>
+    </div>
+  </div>
+
+  <div id="sobre" class="container-fluid py-5 bg-light">
+    <div class="container">
+      <h2 class="text-left">Sobre Nós</h2>
+      <p class="pt-2">Na Clínica Pet Vitta, nossa missão é proporcionar cuidados excepcionais e amorosos para os
+        seus animais de estimação. Com uma equipe de veterinários dedicados e experientes, estamos comprometidos em
+        garantir a saúde, felicidade e bem-estar de todos os nossos pacientes.</p>
+      <p>Nossa clínica oferece uma variedade de serviços, desde consultas veterinárias abrangentes
+        até banho e tosa de alta qualidade, garantindo que seu pet receba os cuidados de que precisa em um ambiente
+        acolhedor e confortável.</p>
+      <p>Valorizamos o vínculo especial entre você e seu animal de estimação, e nos esforçamos para
+        criar uma experiência positiva e tranquila para ambos. Seja qual for a necessidade do seu pet, estamos aqui para
+        ajudar e fornecer o melhor atendimento possível.</p>
+    </div>
+  </div>
+
+  <div id="servicos" class="container py-4">
+    <h2 class="text-left py-4">Nossos Serviços</h2>
+    <div id="servicosCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-4 pb-4">
+              <div class="card">
+                <img src="images/tosa_banho.png" class="card-img-top" alt="Banho e Tosa">
+                <div class="card-body">
+                  <h5 class="card-title">Banho e Tosa</h5>
+                  <p class="card-text">Oferecemos banho e tosa de alta qualidade para manter seu pet limpo, cheiroso e
+                    saudável. Contamos com serviço exclusivo de PetDriver.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pb-4">
+              <div class="card">
+                <img src="images/consulta.jpg" class="card-img-top" alt="Consulta Veterinária">
+                <div class="card-body">
+                  <h5 class="card-title">Consulta Veterinária</h5>
+                  <p class="card-text">Nossos veterinários experientes oferecem consultas abrangentes para garantir a
+                    saúde e o bem-estar do seu animal de estimação.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pb-4">
+              <div class="card">
+                <img src="images/produtos.jpg" class="card-img-top" alt="Produtos para Pet">
+                <div class="card-body">
+                  <h5 class="card-title">Loja de Produtos</h5>
+                  <p class="card-text">Em nossa loja, você encontrará uma ampla variedade de produtos de qualidade,
+                    incluindo alimentos, brinquedos e acessórios para animais de estimação.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contato" class="container pb-5">
+    <h2 class="text-left mb-4">Entre em Contato</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" class="form-control" id="nome" placeholder="Nome completo" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="email@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem:</label>
+            <textarea class="form-control" id="mensagem" rows="5" placeholder="Sua Mensagem" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-warning mb-4">Enviar</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h4>Informações Pet Vitta:</h4>
+        <p><strong>Endereço:</strong> Rua Frei Caneca, 390 - Consolação - São Paulo, SP</p>
+        <p><strong>Telefone:</strong> (11) 4003-8742</p>
+        <p><strong>Email:</strong> contato@petvitta.com.br</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.4391213304643!2d-46.65395212578777!3d-23.55266736127075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5835604985c7%3A0xe38de742c55c134!2sCl%C3%ADnica%20Veterin%C3%A1ria%20Frei%20Caneca!5e0!3m2!1spt-BR!2sbr!4v1707756434800!5m2!1spt-BR!2sbr"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="embed-responsive"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+  <footer class="text-center pt-4 pb-2 bg-dark text-light">
+    <p>&copy; 2024 Clínica Pet Vitta. Todos os direitos reservados.</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
